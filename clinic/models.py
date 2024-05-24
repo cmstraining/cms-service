@@ -18,4 +18,4 @@ class Clinic(models.Model):
         verbose_name_plural = 'Clinics'
 
     def __str__(self):
-        return self.name
+        return '{} - {}'.format(self.cid, self.name)
