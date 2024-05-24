@@ -14,5 +14,5 @@ class Clinic(models.Model):
     objects = models.Manager()
 
     class Meta:
-        verbose_name = 'Clinic Detail'
-        verbose_name_plural = 'Clinic Details'
+        verbose_name = 'Clinic'
+        verbose_name_plural = 'Clinics'
