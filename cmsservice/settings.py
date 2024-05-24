@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# GRAPPELLI DEFINITIONS
+GRAPPELLI_ADMIN_TITLE = 'Clinic Management System Administration'
 
 # Application definition
 
